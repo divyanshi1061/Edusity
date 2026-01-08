@@ -16,3 +16,16 @@ text-align: center;
     width:23%;
     border-radius: 10px;
 }
+
+
+
+
+@media(max-width:850px){
+    .gallery{
+        flex-wrap:wrap;
+    }
+    .gallery img{
+        width:48%;
+        margin-bottom: 25px;
+    }
+}
